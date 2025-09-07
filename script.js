@@ -1,7 +1,7 @@
 // --- kode kamu sebelumnya ---
 const photos = [];
 for (let i = 1; i <= 50; i++) {
-  photos.push(`images/${i}.jpg`);
+  photos.push(`images/${i}.webp`);
 }
 
 const gallery = document.getElementById("gallery");
@@ -47,3 +47,4 @@ backToTopBtn.addEventListener("click", () => {
 
 // Render awal
 renderGallery();
+
