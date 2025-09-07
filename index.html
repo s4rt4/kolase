@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolase Foto</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- LightGallery CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="left-buttons">
+      <button id="refreshBtn" class="btn">
+        <i class="fa-solid fa-arrows-rotate"></i> Refresh Kolase
+      </button>
+    </div>
+    <div class="right-buttons">
+      <button id="toggleTheme" class="btn">
+        <i class="fa-solid fa-moon"></i>/  <i class="fa-solid fa-sun"></i> Tema
+      </button>
+    </div>
+  </header>
+
+  <!-- Gallery -->
+  <div id="gallery" class="grid"></div>
+
+  <!-- Footer -->
+  <footer>
+  <p>© 2025 Kolase Foto. Dibuat dengan <i class="fa-solid fa-heart"></i> untuk Kamu.</p>
+  <p>Foto-foto berasal dari <a href="https://unsplash.com/" target="_blank">Unsplash</a>. 
+     Terima kasih kepada para fotografer.</p>
+</footer>
+
+
+  <!-- Tombol kembali ke atas -->
+  <button id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- LightGallery -->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/fullscreen/lg-fullscreen.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+
+  <!-- Masonry.js -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
